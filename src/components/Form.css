@@ -1,0 +1,59 @@
+.titleForm{
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.inputBox{
+    position: relative;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+.inputBox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background-color: #1d2b3a;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.25);
+    transition: 0.5s;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span{
+    color: #00dfc4;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 11px;
+    padding: 0 10px;
+    background-color: #1d2b3a;
+}
+
+.inputBox input:valid,
+.inputBox input:focus{
+    border: 1px solid #00dfc4;
+}
+
+.dobleInput{
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    background-color: #1d2b3a;
+    color: rgba(255, 255, 255, 0.25);
+    margin-right: 25px;
+    transition: 0.5s ease-in;
+}
+
+.dobleInput:hover{
+    cursor: pointer;
+    border: 1px solid #00dfc4;
+    color: #00dfc4;
+}

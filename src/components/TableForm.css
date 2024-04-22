@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.25);;
+    padding: 10px;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
